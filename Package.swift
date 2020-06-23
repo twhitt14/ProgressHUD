@@ -5,6 +5,7 @@ let package = Package(
     name: "ProgressHUD",
     platforms: [
         .iOS(.v13),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
